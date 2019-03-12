@@ -1,5 +1,6 @@
 <?php
 
+
 header('Content-type: application/json');
 include ('include/db.php');
 $diadinasaur = isset($_POST['dinasaur']) ? $_POST['dinasaur'] : ' ';
