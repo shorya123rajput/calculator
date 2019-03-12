@@ -9,6 +9,7 @@ $desired = isset($_POST['desired']) ? $_POST['desired'] : ' ';
 $dinasaur_name = isset($_POST['dinasaur_name']) ? $_POST['dinasaur_name'] : ' ';
 
 /**
+iojoipjiop
  * Dinasaur image
  */
 $img_query = "SELECT `icon`,`Name`,`Rarity`  FROM `xref-Dino_info` WHERE `Name` ='" . $dinasaur_name . "' AND  `Rarity` ='" . $diadinasaur . "' ";
